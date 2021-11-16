@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    BOT_TOKEN = "2130769662:AAEilNdRUrOEeyHgO5DrBqNQjwX1_ISR6jg"
+    APP_ID = "4773639"
+    API_HASH = "493cb7cb8428c5de4490ab47e936fb96"
+    DATABASE_URL = "postgres://hbwywwowpdvror:d3fdd543eac83b2784eb4ac3cfec79fe6ebab2c3e4e0d96e6a75a615f0d52842@ec2-3-230-149-158.compute-1.amazonaws.com:5432/d47bkscq42s9mj"
+    SUDO_USERS = "1290751149 1682767082" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+    G_DRIVE_CLIENT_ID = "1054013332944-9r0oq8q64ufpmqupn8lb75v7qfppo7bd.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
+    SUPPORT_CHAT_LINK = "https://t.me/joinchat/cP_cQ3V_K-AwOGI1"
 
 
 class BotCommands:
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**[Hi there](https://youtu.be/sTQkY0UE20c) {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**[Hi there](I AM THARSHIKAN) {}.**\n__I'm Google Drive Uploader Bot Ttoo.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
 
     HELP_MSG = [
         ".",
@@ -39,10 +39,10 @@ class Messages:
         
         # Dont remove this ↓ if you respect developer.
          
-        "**Join Channel @lkhitech**"
+        "**Join Channel @official_account_verification**"
         ]
      
-    RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
+    RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after now.__"
     
     FILE_NOT_FOUND_MESSAGE = "❗ **File/Folder not found.**\n__File id - {} Not found. Make sure it\'s exists and accessible by the logged account.__"
     
@@ -52,13 +52,13 @@ class Messages:
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
-    DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
+    DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File to https://pjalwalsindex.priyanshujalwal.workers.dev/...**\n**Filename:** ```{}```\n**Size:** ```{}```"
     
-    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully to unlimited drive.**\n[{}]({}) __({})__"
     
-    DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
+    DOWNLOAD_ERROR = "❗**Downloader Failed what the fuck**\n{}\n__Link - {}__"
     
-    DOWNLOADING = "📥 **Downloading File...\nLink:** ```{}```"
+    DOWNLOADING = "📥 **Downloading File please wait sometime tharshikan...\nLink:** ```{}```"
     
     ALREADY_AUTH = "🔒 **Already authorized your Google Drive Account.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
     
@@ -66,13 +66,13 @@ class Messages:
     
     AUTH_SUCCESSFULLY = '🔐 **Authorized Google Drive account Successfully.**'
     
-    INVALID_AUTH_CODE = '❗ **Invalid Code**\n__The code you have sent is invalid or already used before. Generate new one by the Authorization URL__'
+    INVALID_AUTH_CODE = '❗ **Invalid Code you are a fucker**\n__The code you have sent is invalid or already used before. Generate new one by the Authorization URL__'
     
     AUTH_TEXT = "⛓️ **To Authorize your Google Drive account visit this [URL]({}) and send the generated code here.**\n__Visit the URL > Allow permissions > you will get a code > copy it > Send it here__"
     
     DOWNLOAD_TG_FILE = "📥 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
-    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
+    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully.HAPPY VERY HAPPY**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
     
     PARENT_CLEAR_SUCCESS = f'🆔🚮 **Custom Folder ID Cleared Successfuly.**\n__Use__ ```/{BotCommands.SetFolder[0]} (Folder Link)``` __to set it back__.'
     
@@ -90,7 +90,7 @@ class Messages:
     
     DELETED_SUCCESSFULLY = "🗑️✅ **File Deleted Successfully.**\n__File deleted permanently !\nFile id - {}__"
     
-    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG**\n__Please try again later.__"
+    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG FUCK OFF**\n__Please try again later.__"
     
     EMPTY_TRASH = "🗑️🚮**Trash Emptied Successfully !**"
     
